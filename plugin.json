@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pi-security",
+  "version": "0.1.0",
+  "description": "Investigate Pi Security findings, review security posture, and get practical guidance in Kiro.",
+  "author": {
+    "name": "Pi Security",
+    "email": "contact@pi.security",
+    "url": "https://www.pi.security/"
+  },
+  "homepage": "https://www.pi.security/",
+  "license": "MIT",
+  "keywords": [
+    "pi security",
+    "security findings",
+    "security posture",
+    "threat model",
+    "code gatekeeper",
+    "remediation",
+    "security design review",
+    "security report",
+    "secure development"
+  ]
+}
