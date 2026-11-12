@@ -1,6 +1,6 @@
 # Pi Security for Kiro
 
-Bring Pi Security into Kiro to understand security findings, review your security posture, and get practical guidance. This Power packages six workflows and one connection to Pi's hosted MCP service. There is no local server, build step, API key, or additional agent to configure.
+Bring Pi Security into Kiro to understand security findings, review your security posture, and get practical guidance. This Power packages seven workflows and one connection to Pi's hosted MCP service. There is no local server, build step, API key, or additional agent to configure.
 
 **Compatibility:** this package targets Kiro IDE and optional Kiro CLI v3 using the modern [Agent Plugins format](https://kiro.dev/docs/powers/create/).
 
@@ -12,6 +12,7 @@ Bring Pi Security into Kiro to understand security findings, review your securit
 | [Review security posture](skills/review-pi-security-posture/SKILL.md) | “Review my Pi threat-model and Code Gatekeeper posture.” | Read-only, scoped to the applications and results you select |
 | [Get remediation guidance](skills/get-pi-remediation-guidance/SKILL.md) | “Show me Pi's remediation guidance without changing code.” | Fetches existing guidance; preparing a package plan requires confirmation |
 | [Start a design review](skills/start-pi-security-design-review/SKILL.md) | “Queue a Pi security review of this pasted Markdown.” | Queues one review only after confirmation |
+| [Decide design-review gaps](skills/decide-pi-design-review-gaps/SKILL.md) | “Accept the fix on the first gap of my latest Pi design review.” | Records each verdict only after confirmation |
 | [Import a Markdown report](skills/ingest-pi-markdown-report/SKILL.md) | “Import example-report.md into Pi; here is its Markdown.” | Starts processing only after confirmation |
 | [Use secure-development guidance](skills/use-pi-secure-development-playbook/SKILL.md) | “Ask Pi for secure-development guidance for this task.” | Guidance, not automatic code changes; feedback requires confirmation |
 
